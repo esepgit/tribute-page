@@ -1,0 +1,76 @@
+html {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgba(231, 231, 231, 0.726);
+}
+
+#img-div {
+    background-color: white;
+    padding: 25px 0 5px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.first-section {
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#tribute-info, #img-caption {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    filter: grayscale(100%);
+    object-fit: cover;
+    width: 60%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+}
+
+ul > li {
+    padding-bottom: 15px;
+}
+
+.footer {
+    width: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+blockquote {  
+    max-width: 40%;
+    padding-bottom: 25px;
+}
+
+a {
+    color: #477ca7
+}
+
+a:visited {
+    color: #74638f;
+}
